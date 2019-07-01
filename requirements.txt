@@ -1,0 +1,8 @@
+numpy==1.16.2
+scipy==1.2.1
+tensorflow-gpu==1.12
+argparse
+parse
+tqdm
+pickle
+open3d-python

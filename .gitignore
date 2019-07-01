@@ -1,0 +1,8 @@
+logs/
+results/*.pickle
+*.eps
+registration/*.pickle
+*.png
+data/sun3d
+venv/
+.idea/
