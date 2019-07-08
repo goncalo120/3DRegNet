@@ -34,7 +34,7 @@ data_arg.add_argument(
     "--data_tr", type=str, default="sun3d", help=""
     "name of the dataset for train")
 data_arg.add_argument(
-    "--data_va", type=str, default="livingroom1.livingroom2.office1.office2", help=""
+    "--data_va", type=str, default="sun3d", help=""
     "name of the dataset for valid")
 data_arg.add_argument(
     "--data_te", type=str, default="sun3d", help=""
