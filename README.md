@@ -12,16 +12,19 @@ E-Mail: goncalo.pais@tecnico.ulisboa.pt
 
 This project provides the opensource code for 3DRegNet, a deep learning algorithm for the registration of 3D scans. Given a set of 3D point correspondences, we build a deep neural network using deep residual layers and convolutional layers to achieve two tasks: (1) classification of the point correspondences into correct/incorrect ones, and (2) regression of the motion parameters that can align the scans into a common reference frame.
 
+[Updated Citation]
 If you want to use this open source, please cite:
 ```
 @article{pais19,
   title={3DRegNet: A Deep Neural Network for 3D Point Registration},
   author={G. Dias Pais and Pedro Miraldo and Srikumar Ramalingam and
             Jacinto C. Nascimento and Venu Madhav Govindu and Rama Chellappa},
-  journal={arXiv:1904.01701},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {7193-7203},
   year={2019}
 }
 ```
+You can check the final version of the paper [here](http://openaccess.thecvf.com/content_CVPR_2020/html/Pais_3DRegNet_A_Deep_Neural_Network_for_3D_Point_Registration_CVPR_2020_paper.html).
 
 ## Method
 We build a deep neural network using deep residual layers and convolutional layers to achieve. The network architecture is shown below.
